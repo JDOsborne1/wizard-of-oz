@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Jun  5 20:22:29 2018
+
+@author: Joe
+"""
+
+def taxbasic(income,baseratecut,baserate):
+    if income <= baseratecut:
+        takehome = income
+    else:
+        taxable = income - baseratecut
+        takehome = baseratecut+((1 - baserate)*taxable)
+    return takehome
+    

@@ -1,0 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Mar 31 17:27:11 2018
+
+@author: pi
+"""
+import pandas as pd
+d = {'pasta /g':[400], 'Onion (whole)':[1],'Garlic /cloves':[3],'Tuna /g':[400],'Tomatoes /g':[400]}
+df = pd.DataFrame(data=d,index=['Tuna Pasta Bake'])
