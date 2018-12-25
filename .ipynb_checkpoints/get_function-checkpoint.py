@@ -3,5 +3,4 @@ def get(St, func):
         Va = func(input(St) )
         return Va
     except ValueError:
-        return get(St,func)
- 
+        return get(St,func) 
